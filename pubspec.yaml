@@ -1,0 +1,49 @@
+name: quefebeisso
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_mlkit_object_detection: ^0.5.0
+  camera: ^0.10.5+5
+  path_provider: ^2.0.11
+  google_mlkit_translation: ^0.5.0
+  translator: ^0.1.5
+  flutter_native_splash: ^2.3.5
+  flutter_launcher_icons: ^0.13.1
+  another_flutter_splash_screen: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/app/logo.png
+  android: true
+  ios: true
+  android_12:
+    color: "#ffffff"
+    image: assets/app/logo.png
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/app/logo.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ml/
+    - assets/app/
+    - assets/app/ricardo.gif
